@@ -28,14 +28,13 @@ You should create one R script called run_analysis.R that does the following.
 
 ##Steps to run this project
 
-.
-- Unpack the data archive in our working directory
-- Set your working with setwd _inside_ the unpacked data archive
+- Unpack the data archive 
+- Set your working with setwd _inside_ the unpacked data archive folder
 - Run run_analysis.R.
 - The output file is generated in your working directory
 - The final tidy data is in `tidyData.txt`. It can be loaded by `Data<-read.table("tidyData.txt", sep=" ", head=TRUE)`
 
-- The codebok is in `codebook.md` . It gives the descriptions of the variables in the data frame produced by this project.
+- The codebok is in `codebook.md` . It gives the descriptions of the variables in the data file produced by this project.
 
 
  
