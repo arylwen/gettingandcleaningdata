@@ -51,10 +51,23 @@ Each person performed six activities (WALKING, WALKING\_UPSTAIRS,
 WALKING\_DOWNSTAIRS, SITTING, STANDING, LAyING) wearing a smartphone
 (Samsung Galaxy S II) on the waist.
 
-Variable name | Description -----------------|------------ activity |
-Activity type that the 30 volunteers who performed the activity. | Its
-has 6 levels: | 1. WALKING | 2. WALKING\_UPSTAIRS | 3.
-WALKING\_DOWNSTAIRS | 4. SITTING | 5. STANDING | 6. LAyING
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">activity</td>
+<td align="left">Activity type that the 30 volunteers who performed the activity.</td>
+</tr>
+</tbody>
+</table>
+
+It has 6 levels: 1. walking 2. walkingupstairs 3. walkingdownstairs 4.
+sitting 5. standing 6. laying
 
 ### Features
 
@@ -127,71 +140,27 @@ Mean value - std: Standard deviation
 **68 combined Variable name used in the dataset:**
 --------------------------------------------------
 
--   timeBodyAccelerometer-mean-x  
--   timeBodyAccelerometer-mean-y  
--   timeBodyAccelerometer-mean-z  
--   timeBodyAccelerometer-std-x  
--   timeBodyAccelerometer-std-y
--   timeBodyAccelerometer-std-z
--   timeGravityAccelerometer-mean-x
--   timeGravityAccelerometer-mean-y
--   timeGravityAccelerometer-mean-z
--   timeGravityAccelerometer-std-x
--   timeGravityAccelerometer-std-y
--   timeGravityAccelerometer-std-z
--   timeBodyAccelerometerJerk-mean-x
--   timeBodyAccelerometerJerk-mean-y
--   timeBodyAccelerometerJerk-mean-z
--   timeBodyAccelerometerJerk-std-x
--   timeBodyAccelerometerJerk-std-y
--   timeBodyAccelerometerJerk-std-z
--   timeBodyGyroscope-mean-x
--   timeBodyGyroscope-mean-y
--   timeBodyGyroscope-mean-z
--   timeBodyGyroscope-std-x
--   timeBodyGyroscope-std-y
--   timeBodyGyroscope-std-z
--   timeBodyGyroscopeJerk-mean-x
--   timeBodyGyroscopeJerk-mean-y
--   timeBodyGyroscopeJerk-mean-z
--   timeBodyGyroscopeJerk-std-x
--   timeBodyGyroscopeJerk-std-y
--   timeBodyGyroscopeJerk-std-z
--   timeBodyAccelerometerMagnitude-mean
--   timeBodyAccelerometerMagnitude-std
--   timeGravityAccelerometerMagnitude-mean
--   timeGravityAccelerometerMagnitude-std
--   timeBodyAccelerometerJerkMagnitude-mean
--   timeBodyAccelerometerJerkMagnitude-std
--   timeBodyGyroscopeMagnitude-mean
--   timeBodyGyroscopeMagnitude-std
--   timeBodyGyroscopeJerkMagnitude-mean
--   timeBodyGyroscopeJerkMagnitude-std
--   frequencyBodyAccelerometer-mean-x
--   frequencyBodyAccelerometer-mean-y
--   frequencyBodyAccelerometer-mean-z
--   frequencyBodyAccelerometer-std-x
--   frequencyBodyAccelerometer-std-y
--   frequencyBodyAccelerometer-std-z
--   frequencyBodyAccelerometerJerk-mean-x
--   frequencyBodyAccelerometerJerk-mean-y
--   frequencyBodyAccelerometerJerk-mean-z
--   frequencyBodyAccelerometerJerk-std-x
--   frequencyBodyAccelerometerJerk-std-y
--   frequencyBodyAccelerometerJerk-std-z
--   frequencyBodyGyroscope-mean-x
--   frequencyBodyGyroscope-mean-y
--   frequencyBodyGyroscope-mean-z
--   frequencyBodyGyroscope-std-x
--   frequencyBodyGyroscope-std-y
--   frequencyBodyGyroscope-std-z
--   frequencyBodyAccelerometerMagnitude-mean
--   frequencyBodyAccelerometerMagnitude-std
--   frequencyBodyAccelerometerJerkMagnitude-mean
--   frequencyBodyAccelerometerJerkMagnitude-std
--   frequencyBodyGyroscopeMagnitude-mean
--   frequencyBodyGyroscopeMagnitude-std
--   frequencyBodyGyroscopeJerkMagnitude-mean
--   frequencyBodyGyroscopeJerkMagnitude-std
+"subject" "activity" "tbodyacc-mean-x" "tbodyacc-mean-y"
+"tbodyacc-mean-z" "tbodyacc-std-x" "tbodyacc-std-y" "tbodyacc-std-z"
+"tgravityacc-mean-x" "tgravityacc-mean-y" "tgravityacc-mean-z"
+"tgravityacc-std-x" "tgravityacc-std-y" "tgravityacc-std-z"
+"tbodyaccjerk-mean-x" "tbodyaccjerk-mean-y" "tbodyaccjerk-mean-z"
+"tbodyaccjerk-std-x" "tbodyaccjerk-std-y" "tbodyaccjerk-std-z"
+"tbodygyro-mean-x" "tbodygyro-mean-y" "tbodygyro-mean-z"
+"tbodygyro-std-x" "tbodygyro-std-y" "tbodygyro-std-z"
+"tbodygyrojerk-mean-x" "tbodygyrojerk-mean-y" "tbodygyrojerk-mean-z"
+"tbodygyrojerk-std-x" "tbodygyrojerk-std-y" "tbodygyrojerk-std-z"
+"tbodyaccmag-mean" "tbodyaccmag-std" "tgravityaccmag-mean"
+"tgravityaccmag-std" "tbodyaccjerkmag-mean" "tbodyaccjerkmag-std"
+"tbodygyromag-mean" "tbodygyromag-std" "tbodygyrojerkmag-mean"
+"tbodygyrojerkmag-std" "fbodyacc-mean-x" "fbodyacc-mean-y"
+"fbodyacc-mean-z" "fbodyacc-std-x" "fbodyacc-std-y" "fbodyacc-std-z"
+"fbodyaccjerk-mean-x" "fbodyaccjerk-mean-y" "fbodyaccjerk-mean-z"
+"fbodyaccjerk-std-x" "fbodyaccjerk-std-y" "fbodyaccjerk-std-z"
+"fbodygyro-mean-x" "fbodygyro-mean-y" "fbodygyro-mean-z"
+"fbodygyro-std-x" "fbodygyro-std-y" "fbodygyro-std-z" "fbodyaccmag-mean"
+"fbodyaccmag-std" "fbodybodyaccjerkmag-mean" "fbodybodyaccjerkmag-std"
+"fbodybodygyromag-mean" "fbodybodygyromag-std"
+"fbodybodygyrojerkmag-mean" "fbodybodygyrojerkmag-std"
 
 `Note`: Features are normalized and bounded within [-1,1]
